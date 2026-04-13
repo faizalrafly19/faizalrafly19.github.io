@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafly Faizal Laksanadi - Personal Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f9;
+            --text-main: #333333;
+            --accent-color: #2c3e50;
+            --highlight: #3498db;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-size: 14px;
+        }
+
+        header h1 {
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            font-weight: 400;
+        }
+
+        .location {
+            font-size: 0.9rem;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+
+        /* Content Sections */
+        section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        section h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--highlight);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Grid for Interests/Skills */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--highlight);
+        }
+
+        .card h4 {
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        /* Contact Section */
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: var(--highlight);
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="profile-img">
+                <img src="profil.jpg" alt="Rafly Faizal Laksanadi">
+            </div>
+            <h1>Rafly Faizal Laksanadi</h1>
+            <h2>Medical Student (MBBCh) | Researcher</h2>
+            <p class="location">📍 Kairo, Mesir</p>
+        </header>
+
+        <section>
+            <h3>Tentang Saya</h3>
+            <p>Seorang mahasiswa kedokteran yang berdedikasi dengan latar belakang akademis tambahan di bidang teori hukum komparatif dan filsafat. Memiliki minat mendalam terhadap penelitian lintas disiplin dan berencana untuk mengejar spesialisasi bedah di masa depan. Di luar dunia medis dan akademik, saya memiliki ketertarikan pada manajemen infrastruktur digital dan produksi media visual.</p>
+        </section>
+
+        <section>
+            <h3>Fokus & Aktivitas</h3>
+            <div class="grid-container">
+                <div class="card">
+                    <h4>Penelitian Akademis</h4>
+                    <p>Fokus pada yurisprudensi komparatif, kritik epistemologis, dan penyusunan karya tulis akademis.</p>
+                </div>
+                <div class="card">
+                    <h4>Kesehatan & Kebugaran</h4>
+                    <p>Menerapkan gaya hidup disiplin melalui latihan <i>calisthenics</i> rutin dan manajemen nutrisi terstruktur.</p>
+                </div>
+                <div class="card">
+                    <h4>Infrastruktur Digital</h4>
+                    <p>Berpengalaman dalam manajemen jaringan NAS (QNAP) serta eksplorasi produksi dan penyuntingan media visual sinematik.</p>
+                </div>
+                <div class="card">
+                    <h4>Eksplorasi Kuliner</h4>
+                    <p>Memiliki hobi memasak dengan ketertarikan khusus pada kreasi resep <i>fusion</i> menggunakan bahan-bahan lokal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <h3>Mari Terhubung</h3>
+            <p>Terbuka untuk diskusi akademis, kolaborasi proyek, atau sekadar berbagi wawasan.</p>
+            <div class="contact-links">
+                <a href="mailto:alfrylazifa696@gmail.com">Email Saya</a>
+                <a href="https://wa.me/6285724712599" target="_blank">WhatsApp</a>
+                <a href="https://instagram.com/faizalrafly19" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2026 Rafly Faizal Laksanadi. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
